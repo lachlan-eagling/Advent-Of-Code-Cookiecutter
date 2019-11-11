@@ -4,11 +4,11 @@ from jinja2 import Template
 
 def generate_solution_files():
     for i in range(1, 26):
-        mkdir(f"./data/solutions/day_{i}/")
-        with open(f"./data/solutions/day_{i}/part1.txt", "w+") as f:
+        mkdir(f"./data/answers/day_{i}/")
+        with open(f"./data/answers/day_{i}/part1.txt", "w+") as f:
             pass
 
-        with open(f"./data/solutions/day_{i}/part2.txt", "w+") as f:
+        with open(f"./data/answers/day_{i}/part2.txt", "w+") as f:
             pass
         continue
 

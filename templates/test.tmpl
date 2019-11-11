@@ -1,18 +1,18 @@
 from unittest import TestCase
 from challenges import day_{{ day }} as challenge
-from utils import load_solution
+from utils import load_answer
 
 
 class TestDay{{ day }}(TestCase):
 
     def __init__(self):
-        self.solution = load_solution({{ day }})
+        self.answer = load_solution({{ day }})
         super().__init__()
 
     def test_part_1(self):
         result = challenge.part1()
-        self.assertEqual(result, self.solution)
+        self.assertEqual(result, self.answer)
 
     def test_part_2(self):
         result = challenge.part1()
-        self.assertEqual(result, self.solution)
+        self.assertEqual(result, self.answer)
