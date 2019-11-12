@@ -3,8 +3,8 @@
 <h1 style="text-align: center; font-family: 'Mountains of Christmas', cursive;"><b>Advent of Code Cookiecutter</b></h1>
 
 
-![Christmas Tree](https://images.unsplash.com/photo-1512072893134-b8754d1e23a0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2637&q=80)
-<p style="text-align: center"><em>Photo by Greyson Joralemon on Unsplash</em></p>
+![Christmas Tree](https://images.unsplash.com/photo-1482289141412-c3c400927db2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2287&q=80)
+<p style="text-align: center"><em>Photo by Thomas Kelley on Unsplash</em></p>
 
 -----------
 
