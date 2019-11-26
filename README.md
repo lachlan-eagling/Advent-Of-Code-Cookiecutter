@@ -28,6 +28,8 @@ For each days challenge, get the input from the Advent of Code website and paste
 
 The next step is to implement the code to solve the challenge in the `part1()` & `part2()` functions in the corresponding days `day_{n}.py` file in the `.advent_of_code\challenges` directory. Output from the implemented solution will be written to file when the days challenges are executed in the `day_{n}.py` file. Answers are also output to the console so you they can be easily pasted into the Advent of Code website for validation.
 
+Challenges can be executed by simply running the days challenge file. E.g. run `python day_1.py` in the `challenges` directory.
+
 Now the answer is available unit tests can be executed against the correct solution to refactor solutions with confidence.
 
 ---------
