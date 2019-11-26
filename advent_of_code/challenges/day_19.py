@@ -1,4 +1,4 @@
-from utils import load_input, save_answers
+from advent_of_code.utils import load_input, save_answers
 
 
 INPUT = load_input(19)

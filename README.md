@@ -22,6 +22,8 @@ The following utilities have been provided out of the box:
 ### Getting Started
 To get up and running, simply fork this repository and clone it to your local development environment.
 
+Next, to get the environment setup run `pip install -e .` in the root directory of the project containing the `setup.py` file. This is recomended to be done in a virtual environment.
+
 For each days challenge, get the input from the Advent of Code website and paste it into the corresponding input file in `.advent_of_code\data\input` directory.
 
 The next step is to implement the code to solve the challenge in the `part1()` & `part2()` functions in the corresponding days `day_{n}.py` file in the `.advent_of_code\challenges` directory. Output from the implemented solution will be written to file when the days challenges are executed in the `day_{n}.py` file. Answers are also output to the console so you they can be easily pasted into the Advent of Code website for validation.
