@@ -21,10 +21,12 @@ def generate_input_files():
     for i in range(1, 26):
         create_empty_file(abspath(f'./advent_of_Code/data/input/day_{i}'))
 
+        389
+
 
 def generate_test_files():
     for i in range(1, 26):
-        with open(abspath(f"./generate/templates/test.tmpl")) as f:
+        with open(abspath(f"./templates/test.tmpl")) as f:
             template = Template(f.read())
         with open(abspath(f"./advent_of_Code/challenges/tests/test_day_{i}.py"), "w+") as f:
             f.write(template.render(day=i))
@@ -32,7 +34,7 @@ def generate_test_files():
 
 def generate_challenge_files():
     for i in range(1, 26):
-        with open(abspath(f"./generate/templates/challenge.tmpl")) as f:
+        with open(abspath(f"./templates/challenge.tmpl")) as f:
             template = Template(f.read())
         with open(abspath(f"./advent_of_Code/challenges/day_{i}.py"), "w+") as f:
             f.write(template.render(day=i))
