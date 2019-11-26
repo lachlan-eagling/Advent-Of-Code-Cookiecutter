@@ -8,7 +8,7 @@
 
 -----------
 
-This project is here to get up and running with the <a href="https://adventofcode.com/">Advent of Code</a> challenges a quick and easy experience.
+This project is intended to bootstrap the <a href="https://adventofcode.com/">Advent of Code</a> challenges a provide quick and easy experience to get up and running with them.
 
 The following utilities have been provided out of the box:
 
@@ -22,11 +22,11 @@ The following utilities have been provided out of the box:
 ### Getting Started
 To get up and running, simply fork this repository and clone it to your local development environment.
 
-For each days challenge, get the input from the Advent of Code website and paste it into the corresponding input file in `.\data\inputs` directory.
+For each days challenge, get the input from the Advent of Code website and paste it into the corresponding input file in `.advent_of_code\data\input` directory.
 
-Next implement the code to solve the challenge in the `part1()` & `part2()` functions in the corresponding days challenge file in the `.\challenges` directory.
+The next step is to implement the code to solve the challenge in the `part1()` & `part2()` functions in the corresponding days `day_{n}.py` file in the `.advent_of_code\challenges` directory.
 
-Once you have succesfully solved the challenge and validated it in the Advent of Code website, paste your answer text into the corresponding `part1.txt` or `part2.txt` solution file in the `.\data\answers\day{n}` directory.
+Once the days challenges have been succesfully solved, and the results validated it in the Advent of Code website, paste your answer text into the corresponding `part1.txt`/`part2.txt` solution file in the `.advent_of_code\data\answers\day{n}` directory.
 
 Now the answer is available unit tests can be executed against the correct solution to refactor solutions with confidence.
 
@@ -34,4 +34,12 @@ Now the answer is available unit tests can be executed against the correct solut
 
 ### Modifying Generated File Templates
 
-In addition to the out of the box utilites, templates are provided so the generated function and unit test stubs can be modified and regenerated according to the templates. Templates are written using [Jinja2](https://jinja.palletsprojects.com/en/2.10.x/)
+In addition to the out of the box utilites, templates are provided so the generated function and unit test stubs can be modified and regenerated according to the templates. Templates are written using [Jinja2](https://jinja.palletsprojects.com/en/2.10.x/).
+
+1. Install the required dependencies into your Python environment by executing `pip install -r requirements.txt` in the root directory of the project containing the `requiements.txt` file. 
+2. Modify the generated code modify the provided templates in the `.\generate\templates` directory as required.
+4. Execute `generate.py`.
+
+### Contributing
+
+Contributions are very welcome and appreciated, Please see [the contribution guidelines](CONTRIBUTING.md) for for further details.
