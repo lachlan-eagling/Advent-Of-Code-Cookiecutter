@@ -3,7 +3,7 @@ from os.path import abspath
 
 
 def load_input(day: int) -> List[str]:
-    filepath = abspath('./advent_of_Code/data/input/day_1.txt')
+    filepath = abspath(f'./advent_of_Code/data/input/day_{day}.txt')
     with open(filepath) as f:
         return input_as_list(f.read())
 
