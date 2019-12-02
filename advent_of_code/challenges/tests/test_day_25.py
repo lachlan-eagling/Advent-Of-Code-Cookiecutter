@@ -1,10 +1,10 @@
-from unittest import TestCase
+import unittest
 from advent_of_code.challenges import day_25 as challenge
 
 from advent_of_code.utils import load_answer
 
 
-class TestDay25(TestCase):
+class TestDay25(unittest.TestCase):
 
     def test_part_1(self):
         result = challenge.part1()
@@ -12,6 +12,9 @@ class TestDay25(TestCase):
         self.assertEqual(str(result), answer)
 
     def test_part_2(self):
-        result = challenge.part1()
+        result = challenge.part2()
         answer = load_answer(25, 2)
         self.assertEqual(str(result), answer)
+
+if __name__ == '__main__':
+    unittest.main(verbosity=2)
